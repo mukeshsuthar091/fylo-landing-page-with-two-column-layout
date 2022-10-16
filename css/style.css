@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+:root {
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+/* -------------- header-section -------------------- */
+
+.header-section {
+    padding: 3% 6% 6%;
+}
+
+.top-logo {
+    width: 10rem;
+}
+
+.navbar-nav li {
+    margin-left: 2.1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.hero-text-container {
+    padding: 3.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.illustration-1 img {
+    width: 100%;
+}
+
+.header-text {
+    max-width: 33rem;
+}
+
+.header-text h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.8rem;
+}
+
+.header-text p {
+    margin-bottom: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-box input {
+    font-size: 14px;
+}
+
+.input-text {
+    width: 18rem;
+    border: 1px solid #bfbfbf;
+    border-radius: 0.2rem;
+    padding: 10px 16px;
+    margin: 1rem 1rem 1rem 0;
+    color: hsl(0, 0%, 50%);
+}
+
+form .text {
+    color: #de0611;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.top-btn {
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    border: 0;
+    border-radius: 0.2rem;
+    padding: 12px 48px;
+    font-weight: 600;
+}
+
+.top-btn:hover {
+    background-color: hsl(224, 92%, 67%);
+}
+
+/* -------------- column-layout-section -------------------- */
+
+.column-layout-section {
+    background-image: url(../images/bg-curve-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 7%;
+}
+
+.cl-container {
+    padding: 6% 6% 8%;
+    background-color: #F8F8FE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-container h1 {
+    margin-bottom: 1.8rem;
+    font-size: 2.2rem;
+}
+
+.cl-para {
+    max-width: 30rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 40%);
+}
+
+.text-container a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(170, 45%, 43%);
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+
+.text-container a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: hsl(182, 50%, 62%);
+    display: block;
+    transition: 0.1s;
+}
+
+.text-container a:hover{
+    color: hsl(182, 50%, 62%);
+}
+
+.text-container a:hover::after{
+    width: 11rem;
+    text-align: start;
+}
+
+
+.review-card {
+    margin-top: 3rem;
+    width: 21rem;
+    background-color: #fff;
+    box-shadow: 0 0px 15px -3px hsl(210, 8%, 67%);
+    border-radius: 0.5rem;
+    padding: 1.5rem 1.8rem;
+}
+
+.review-card .quotation {
+    margin: 0.3rem;
+}
+
+.review-card p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 2.1rem;
+    border-radius: 3rem;
+}
+
+.profile p {
+    margin: auto 0.6rem;
+    font-size: 0.7rem;
+}
+
+.illustration-2 {
+    max-width: 34rem;
+}
+
+.illustration-2 img {
+    width: 100%;
+}
+
+/* -------------- contact-section -------------------- */
+
+.contact-section {
+    padding: 6% 6% 5%;
+    background-color: hsl(238, 22%, 44%);
+    color: #fff;
+
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.contact-text {
+    max-width: 32rem;
+}
+
+.contact-text h2 {
+    margin-bottom: 1.3rem;
+    font-size: 2.2rem;
+}
+
+.input-box-2 {
+    max-width: 25rem;
+    margin: auto 0;
+    margin-right: 3rem;
+}
+
+.input-email {
+    width: 100%;
+    border: 0;
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 50%);
+}
+
+.bottom-btn {
+    padding: 0.8rem 2.2rem;
+}
+
+/* -------------- footer-section -------------------- */
+
+
+.footer-section {
+    padding: 6% 11% 5% 6%;
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+}
+
+.footer-logo img {
+    width: 9rem;
+}
+
+.footer-logo {
+    margin-bottom: 2.5rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+
+.contact {
+    max-width: 22rem;
+}
+
+.contact p {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1.4rem;
+}
+
+.contact p img {
+    height: 0.9rem;
+    margin-top: 0.35rem;
+    margin-right: 1rem;
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.links a:hover {
+    color: hsl(224, 93%, 58%);
+}
+
+.social-media a {
+    font-size: 1.3rem;
+    color: #fff;
+    margin: 0 0.8rem;
+}
+
+.social-media a:hover {
+    color: hsl(224, 93%, 58%);
+}
+
+
+@media (max-width: 700px) {
+
+    .top-logo {
+        width: 5.5rem;
+    }
+
+    .navbar-nav li {
+        font-size: 0.9rem;
+        margin-left: 0.6rem;
+    }
+
+    .hero-text-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-size: 1.5rem;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 2rem;
+    }
+
+    .header-text p {
+        font-size: 0.95rem;
+    }
+
+    .input-box input {
+        width: 100%;
+    }
+
+    .cl-container {
+        flex-direction: column-reverse;
+        padding: 22% 6%;
+    }
+
+    .text-container {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .text-container h1 {
+        font-size: 1.1rem;
+    }
+
+    .text-container a {
+        font-size: 0.9rem;
+    }
+
+    .cl-para,
+    .review-card {
+        text-align: left;
+    }
+
+    .review-card p {
+        font-size: 0.75rem;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 20% 6%;
+    }
+
+    .contact-text h2 {
+        font-size: 1.1rem;
+    }
+
+    .contact-text p {
+        font-size: 0.95rem;
+    }
+
+    .input-box-2 {
+        width: 18rem;
+        margin: 1rem auto 0;
+    }
+
+    .footer-section {
+        padding: 18% 6% 15%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1rem;
+    }
+
+    .footer-logo img {
+        width: 10rem;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+}
